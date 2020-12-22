@@ -24,7 +24,7 @@ class MemoListTableViewController: UITableViewController {
     var token: NSObjectProtocol?
     
     deinit {
-        if let token = tokeeen {
+        if let token = token {
             NotificationCenter.default.removeObserver(token)
         }
     }
