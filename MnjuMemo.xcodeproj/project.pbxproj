@@ -15,6 +15,7 @@
 		D4E56569258FA0A600E6B41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E56567258FA0A600E6B41F /* LaunchScreen.storyboard */; };
 		D4E565722590FAB800E6B41F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E565712590FAB800E6B41F /* Model.swift */; };
 		D4E565742590FC1400E6B41F /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E565732590FC1400E6B41F /* MemoListTableViewController.swift */; };
+		D4E56576259210AF00E6B41F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E56575259210AE00E6B41F /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D4E5656A258FA0A600E6B41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E565712590FAB800E6B41F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D4E565732590FC1400E6B41F /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		D4E56575259210AE00E6B41F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D4E56559258FA0A200E6B41F /* AppDelegate.swift */,
 				D4E5655B258FA0A200E6B41F /* SceneDelegate.swift */,
 				D4E565732590FC1400E6B41F /* MemoListTableViewController.swift */,
+				D4E56575259210AE00E6B41F /* ComposeViewController.swift */,
 				D4E5655F258FA0A200E6B41F /* Main.storyboard */,
 				D4E56565258FA0A600E6B41F /* Assets.xcassets */,
 				D4E56567258FA0A600E6B41F /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				D4E565722590FAB800E6B41F /* Model.swift in Sources */,
 				D4E56564258FA0A200E6B41F /* MnjuMemo.xcdatamodeld in Sources */,
 				D4E5655A258FA0A200E6B41F /* AppDelegate.swift in Sources */,
+				D4E56576259210AF00E6B41F /* ComposeViewController.swift in Sources */,
 				D4E5655C258FA0A200E6B41F /* SceneDelegate.swift in Sources */,
 				D4E565742590FC1400E6B41F /* MemoListTableViewController.swift in Sources */,
 			);
