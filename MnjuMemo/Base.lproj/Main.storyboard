@@ -51,7 +51,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="민주 메모장📝" id="1jT-tN-WvK">
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="G7X-ck-s4p">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="G7X-ck-s4p">
                             <connections>
                                 <segue destination="Z03-ML-O4n" kind="presentation" id="Vll-FS-A4A"/>
                             </connections>
@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u2T-uw-Mz6">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="3Cj-yY-fAE"/>
+                                    <barButtonItem title="Item" systemItem="compose" id="3Cj-yY-fAE">
+                                        <connections>
+                                            <segue destination="Z03-ML-O4n" kind="presentation" id="DXE-qb-Xb5"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bfu-2a-FPP">
@@ -133,6 +137,9 @@
                         <viewLayoutGuide key="safeArea" id="bmC-Jv-GyG"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="VTC-Kc-NGa"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="bfu-2a-FPP" id="gV0-6i-Z2v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lWM-Uu-kg6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,4 +226,7 @@
             <point key="canvasLocation" x="629" y="-704"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="DXE-qb-Xb5"/>
+    </inferredMetricsTieBreakers>
 </document>
