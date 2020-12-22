@@ -18,6 +18,7 @@
 		D4E56576259210AF00E6B41F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E56575259210AE00E6B41F /* ComposeViewController.swift */; };
 		D4E5657825921E6500E6B41F /* UIViewControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5657725921E6500E6B41F /* UIViewControllerAlert.swift */; };
 		D4E5657A2592286900E6B41F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E565792592286900E6B41F /* DetailViewController.swift */; };
+		D4E5657D2592429400E6B41F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5657C2592429400E6B41F /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D4E56575259210AE00E6B41F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		D4E5657725921E6500E6B41F /* UIViewControllerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerAlert.swift; sourceTree = "<group>"; };
 		D4E565792592286900E6B41F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D4E5657C2592429400E6B41F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		D4E56558258FA0A200E6B41F /* MnjuMemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4E5657B2592428900E6B41F /* Data */,
 				D4E565702590FAA200E6B41F /* Model */,
 				D4E56559258FA0A200E6B41F /* AppDelegate.swift */,
 				D4E5655B258FA0A200E6B41F /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				D4E565712590FAB800E6B41F /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D4E5657B2592428900E6B41F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5657C2592429400E6B41F /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				D4E5655C258FA0A200E6B41F /* SceneDelegate.swift in Sources */,
 				D4E565742590FC1400E6B41F /* MemoListTableViewController.swift in Sources */,
 				D4E5657825921E6500E6B41F /* UIViewControllerAlert.swift in Sources */,
+				D4E5657D2592429400E6B41F /* DataManager.swift in Sources */,
 				D4E5657A2592286900E6B41F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
